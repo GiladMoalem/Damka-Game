@@ -1,0 +1,53 @@
+/* body {
+    background: #000;
+} */
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    height: 720px;
+    background: #2f2;
+}
+
+.square {
+    background: #afa;
+    width: 90px;
+    height: 90px;
+
+    /* padding: 1px; */
+}
+
+.square-1 {
+    background: gray;
+}
+.square-2 {
+    background: #7afff1;
+    /* background-color:  #71797e; */
+}
+
+.checkers {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+
+    margin: auto;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkers:hover {
+  border: solid 5px #2f2;
+}
+
+.checkers-player-1 {
+    background: #0005;
+}
+
+.checkers-player-2 {
+    background: #fff5;
+}
+
+
